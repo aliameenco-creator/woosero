@@ -1,0 +1,132 @@
+/* WooSEO Optimizer Admin Styles */
+
+.wseo-wrap {
+    max-width: 800px;
+}
+
+.wseo-subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 24px;
+}
+
+/* Cards */
+.wseo-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.wseo-card h2 {
+    margin-top: 0;
+    font-size: 18px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 4px;
+}
+
+.wseo-card-desc {
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+/* Toggle Switch */
+.wseo-switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+.wseo-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.wseo-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.3s;
+    border-radius: 26px;
+}
+
+.wseo-slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.wseo-switch input:checked + .wseo-slider {
+    background-color: #2271b1;
+}
+
+.wseo-switch input:checked + .wseo-slider:before {
+    transform: translateX(22px);
+}
+
+/* Toggle table */
+.wseo-toggles th {
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.wseo-toggles td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.wseo-toggles tr {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.wseo-toggles .description {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #888;
+}
+
+/* Meta box styles */
+.wseo-ai-meta-wrap .widefat {
+    margin-top: 4px;
+}
+
+.wseo-char-count {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-top: 4px;
+    text-align: right;
+}
+
+.wseo-notice-inline {
+    background: #fff8e5;
+    border-left: 4px solid #ffb900;
+    padding: 8px 12px;
+    font-size: 13px;
+}
+
+/* Product fields */
+.wseo-product-fields {
+    border-top: 2px solid #2271b1 !important;
+    margin-top: 12px !important;
+}
